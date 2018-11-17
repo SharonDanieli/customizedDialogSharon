@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <Switch
+        android:id="@+id/heshbonitOrHandasit"
+        android:layout_width="wrap_content"
+        android:textOn="הנדסית"
+        android:textOff="חשבונית"
+        android:layout_height="wrap_content"
+         />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:hint="Enter the first number"
+        android:id="@+id/firstNumber"
+        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:id="@+id/mehaberOrMachpil"
+        android:hint="Enter the mehane or the machpil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>
